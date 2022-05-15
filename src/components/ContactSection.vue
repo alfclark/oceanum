@@ -2,12 +2,8 @@
   <div style="margin-top: -50px; position: absolute" id="contact"></div>
   <section class="contact">
     <div class="animation">
-      <h3>Get in touch — let’s work together!</h3>
-      <p>
-        Got a project? Drop me a line if you want to work together on something
-        exciting. Big or small. Your call.
-      </p>
-      <p>Location: Sonora, Mexico</p>
+      <h3>Tú tambien puedes ayudar. ¡Contáctanos!</h3>
+      <p>Ubicación: Mexico</p>
     </div>
     <div class="form">
       <form
@@ -21,35 +17,33 @@
         <!-- Configs -->
         <input type="text" name="_honey" style="display: none" />
         <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_next" value="https://www.alfclark.dev/" />
+        <input type="hidden" name="_next" value="#" />
         <input
           type="hidden"
           name="_subject"
-          value="New message from portfolio page!"
+          value="Nuevo mensaje de contacto!"
         />
         <!-- Inputs -->
         <input
           type="text"
           name="name"
           v-model="name"
-          placeholder="What's your name?"
+          placeholder="Tu nombre"
           required
         />
         <input
           type="email"
           name="email"
           v-model="email"
-          placeholder="your@email.com"
+          placeholder="tu_correo@email.com"
           required
         />
-        <label for="reason">I'm contacting you because:</label>
+        <label for="reason">Razón de contacto:</label>
         <select name="reason" v-model="reason">
-          <option value="professional">Professional reasons</option>
-          <option value="education">Education</option>
-          <option value="feedback">Feedback</option>
-          <option value="charity">Charity or social activities</option>
-          <option value="starWars">Chat about Star Wars</option>
-          <option value="other">Other</option>
+          <option value="professional">Donación</option>
+          <option value="education">Sponsor</option>
+          <option value="education">Sponsor</option>
+          <option value="feedback">Cuidados</option>
         </select>
         <input
           type="text"
@@ -60,9 +54,9 @@
           cols="30"
           rows="5"
         />
-        <button class="button" :class="hide" type="submit">Submit</button>
+        <button class="button" :class="hide" type="submit">Enviar</button>
         <div class="sent" :class="show">
-          Sent! <i class="fa-solid fa-check"></i>
+          ¡Enviado! <i class="fa-solid fa-check"></i>
         </div>
       </form>
     </div>
@@ -105,6 +99,7 @@ export default {
   height: 100%;
   text-align: left;
   padding-left: 1rem;
+  color: var(--carbon);
 }
 .animation h3 {
   font-size: 2rem;
@@ -127,37 +122,38 @@ export default {
 
 label {
   margin-top: 1rem;
+  color: var(--carbon);
 }
 input,
 select {
   margin-top: 1rem;
   height: 65px;
   width: 100%;
-  border: 2px solid var(--purple);
+  border: 2px solid var(--water);
   background: var(--dark);
   padding: 0 1.5rem;
   border-radius: 15px;
   outline: none;
   font-weight: 400;
   font-size: 1rem;
-  color: white;
+  color: var(--black);
 }
 
 ::placeholder {
-  color: rgba(212, 212, 212, 0.491);
+  color: rgba(31, 26, 26, 0.491);
 }
 
 .button {
   margin: 1rem 0;
   padding: 0.5rem 3rem;
-  background-color: var(--dark);
-  color: white;
-  border: solid var(--purple);
+  background-color: var(--orange);
+  color: var(--black);
+  border: solid var(--sand);
   border-radius: 2rem;
 }
 .button:hover {
-  background-color: var(--purple);
-  color: white;
+  background-color: var(--orangeDark);
+  color: var(--black);
   transition: 0.4s;
 }
 .sent {

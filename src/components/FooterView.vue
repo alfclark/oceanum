@@ -1,8 +1,14 @@
 <template>
   <footer class="footer">
     <img class="footer_logo" src="@/assets/logo.svg" alt="logo" />
+    <div class="social">
+      <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+    </div>
     <div class="credits">
-      <h2 class="by_me">2021 <span>©</span> Handcrafted by me.</h2>
+      <h2 class="by_us">2022 <span>©</span> Hecho con amor al mar, Oceanum.</h2>
     </div>
   </footer>
 </template>
@@ -17,7 +23,7 @@ export default {
 <style scoped>
 .footer {
   height: 100%;
-  background-color: #783ad6;
+  background-color: var(--water);
   display: flex;
   flex-direction: column;
 }
@@ -29,12 +35,28 @@ export default {
   transform: translate(-50%, -50%);
   left: 50%;
 }
-.by_me {
+.social {
+  margin-top: 4rem;
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.fa-brands {
+  font-size: 1.2rem;
+  color: white;
+}
+.fa-brands:hover {
+  color: var(--orange);
+  transition: 0.4s;
+}
+
+.by_us {
   text-align: center;
   color: rgba(255, 255, 255, 0.863);
   font-weight: 500;
-  font-size: 1rem;
-  padding-top: 3rem;
+  font-size: 0.7rem;
+  margin-top: 1rem;
   padding-bottom: 1rem;
   text-decoration: none;
 }

@@ -3,7 +3,6 @@
     <div class="container-fluid">
       <a href="#" class="logo">
         <img class="navbar-brand" src="@/assets/fish.png" alt="logo" />
-        <h1 class="brand">Oceanum</h1>
       </a>
 
       <button
@@ -50,7 +49,7 @@ export default {
 .navbar {
   background-color: var(--water);
   padding: 0.5rem 2rem;
-  box-shadow: 0 0 50px var(--water);
+  box-shadow: 0 0 20px var(--water);
 }
 .logo {
   display: flex;
@@ -66,9 +65,7 @@ export default {
   width: 50px;
   margin: 0;
 }
-.brand {
-  font-size: 1rem;
-}
+
 .navbar-nav {
   align-items: center;
 }
@@ -77,9 +74,6 @@ export default {
   font-weight: 500;
   font-size: 1rem;
   margin: 0 0.5rem;
-}
-.nav-link:hover {
-  text-decoration: underline;
 }
 .nav-button {
   text-decoration: none;
@@ -92,8 +86,7 @@ export default {
   border-radius: 2.2rem;
 }
 .nav-button:hover {
-  background-color: var(--orange);
-  color: var(--black);
+  background-color: var(--waterDark);
   transition: 0.4s;
 }
 </style>

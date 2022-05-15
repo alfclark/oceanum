@@ -32,7 +32,7 @@ export default {
   border-radius: 50%;
 }
 .fa-arrow-up:hover {
-  background-color: var(--sand);
+  background-color: var(--orange);
   transition: 0.4s;
 }
 @media screen and (max-width: 900px) {

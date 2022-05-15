@@ -43,7 +43,7 @@ export default {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--purple);
+  background-color: var(--water);
 }
 * {
   margin: 0;
@@ -52,9 +52,12 @@ export default {
 }
 :root {
   --water: #0099ff;
+  --waterDark: #1f3a4d;
   --sand: #ffdb59;
   --orange: #ff9900;
+  --orangeDark: #c28b39;
   --black: #23221a;
+  --carbon: #292929;
 }
 /* ANIMATIONS */
 @keyframes bounce1 {
@@ -150,5 +153,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   color: white;
   text-align: center;
+  background-color: var(--sand);
 }
 </style>

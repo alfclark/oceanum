@@ -11,8 +11,8 @@
 <script>
 import NavBar from "./components/NavBar.vue";
 import LandingScreen from "./components/LandingScreen.vue";
-import AboutMe from "./components/AboutMe.vue";
-import SkillsView from "./components/SkillsView.vue";
+import AboutMe from "./components/AboutUs.vue";
+import SkillsView from "./components/ProjectsView.vue";
 import FooterView from "./components/FooterView.vue";
 import GoTop from "./components/GoTop.vue";
 import ContactSection from "./components/ContactSection.vue";

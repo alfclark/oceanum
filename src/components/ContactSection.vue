@@ -42,14 +42,13 @@
         <select name="reason" v-model="reason">
           <option value="professional">Donación</option>
           <option value="education">Sponsor</option>
-          <option value="education">Sponsor</option>
           <option value="feedback">Cuidados</option>
         </select>
         <input
           type="text"
           name="message"
           v-model="message"
-          placeholder="Your Message"
+          placeholder="Mensaje"
           required
           cols="30"
           rows="5"

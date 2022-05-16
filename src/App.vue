@@ -1,9 +1,10 @@
 <template>
   <NavBar />
   <LandingScreen />
-  <AboutMe />
+  <MapView />
   <SkillsView />
   <GoTop />
+  <AboutUs />
   <ContactSection />
   <FooterView />
 </template>
@@ -11,22 +12,24 @@
 <script>
 import NavBar from "./components/NavBar.vue";
 import LandingScreen from "./components/LandingScreen.vue";
-import AboutMe from "./components/AboutUs.vue";
+import AboutUs from "./components/AboutUs.vue";
 import SkillsView from "./components/ProjectsView.vue";
 import FooterView from "./components/FooterView.vue";
 import GoTop from "./components/GoTop.vue";
 import ContactSection from "./components/ContactSection.vue";
+import MapView from "./components/MapView.vue";
 
 export default {
   name: "App",
   components: {
     NavBar,
     LandingScreen,
-    AboutMe,
+    AboutUs,
     FooterView,
     SkillsView,
     GoTop,
     ContactSection,
+    MapView,
   },
 };
 </script>
@@ -53,6 +56,7 @@ export default {
 :root {
   --water: #0099ff;
   --waterDark: #1f3a4d;
+  --sunshine: #ffb72b;
   --sand: #ffdb59;
   --orange: #ff9900;
   --orangeDark: #c28b39;
@@ -154,5 +158,25 @@ export default {
   color: white;
   text-align: center;
   background-color: var(--sand);
+}
+.custom-shape-divider-bottom-1652672471 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1652672471 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100%;
+}
+
+.custom-shape-divider-bottom-1652672471 .shape-fill {
+  fill: #0099ff;
 }
 </style>

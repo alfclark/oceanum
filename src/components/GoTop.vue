@@ -30,6 +30,7 @@ export default {
   background-color: var(--water);
   padding: 0.3rem 0.5rem;
   border-radius: 50%;
+  border: solid 2px white;
 }
 .fa-arrow-up:hover {
   background-color: var(--orange);

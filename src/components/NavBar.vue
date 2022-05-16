@@ -19,13 +19,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#about">Nosotros</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#map">Mapa</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#projects">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Nosotros</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact"

@@ -2,11 +2,11 @@
   <footer class="footer">
     <img class="footer_logo" src="@/assets/logo.svg" alt="logo" />
     <div class="social">
-      <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-      <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-      <a href=""><i class="fa-brands fa-instagram"></i></a>
-      <a href=""><i class="fa-brands fa-twitter"></i></a>
-      <a href=""><i class="fa-brands fa-tiktok"></i></a>
+      <a href="" target="”_blank”"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="" target="”_blank”"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="" target="”_blank”"><i class="fa-brands fa-instagram"></i></a>
+      <a href="" target="”_blank”"><i class="fa-brands fa-twitter"></i></a>
+      <a href="" target="”_blank”"><i class="fa-brands fa-tiktok"></i></a>
     </div>
     <div class="credits">
       <h2 class="by_us">2022 <span>©</span> Hecho con amor al mar, Oceanum.</h2>

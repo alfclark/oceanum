@@ -29,7 +29,9 @@
               limpia.
             </p>
           </div>
-          <a class="donar" href="https://teamseas.org/">Donar</a>
+          <a class="donar" href="https://teamseas.org/" target="”_blank”"
+            >Donar</a
+          >
         </div>
         <div class="proyecto">
           <div class="org-logo">
@@ -48,7 +50,10 @@
               China
             </p>
           </div>
-          <a class="donar" href="https://earthleagueinternational.org/donate/"
+          <a
+            class="donar"
+            href="https://earthleagueinternational.org/donate/"
+            target="”_blank”"
             >Donar</a
           >
         </div>
@@ -69,7 +74,12 @@
               de limpieza.
             </p>
           </div>
-          <a class="donar" href="https://theoceancleanup.com/donate/">Donar</a>
+          <a
+            class="donar"
+            href="https://theoceancleanup.com/donate/"
+            target="”_blank”"
+            >Donar</a
+          >
         </div>
         <div class="proyecto">
           <div class="org-logo">
@@ -88,7 +98,10 @@
               pesca furtiva y contaminación.
             </p>
           </div>
-          <a class="donar" href="https://oceana.ca/en/donate-oceana-canada/"
+          <a
+            class="donar"
+            href="https://oceana.ca/en/donate-oceana-canada/"
+            target="”_blank”"
             >Donar</a
           >
         </div>

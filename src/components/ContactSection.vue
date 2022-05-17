@@ -40,9 +40,10 @@
         />
         <label for="reason">Razón de contacto:</label>
         <select name="reason" v-model="reason">
-          <option value="professional">Donación</option>
-          <option value="education">Sponsor</option>
-          <option value="feedback">Cuidados</option>
+          <option value="donation">Donación</option>
+          <option value="volunteer">Voluntariado</option>
+          <option value="sponsor">Sponsor</option>
+          <option value="care">Cuidados</option>
         </select>
         <input
           type="text"

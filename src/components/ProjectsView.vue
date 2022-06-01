@@ -110,7 +110,20 @@
   </section>
 </template>
 
-<script></script>
+<script>
+import axios from "axios";
+export default {
+  data: () => ({
+    result: null
+  }),
+  created() {
+    axios.get("https://jsonplaceholder.typicode.com/todos/1").then((result) => {
+      this.result = result.data;
+      //
+    })
+  }
+};
+</script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
